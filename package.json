@@ -9,21 +9,29 @@
     "preview": "vite preview",
     "test:e2e": "cypress run",
     "test:unit": "vitest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "make:assets": "npx capacitor-assets generate"
   },
   "dependencies": {
+    "@capacitor/android": "7.3.0",
     "@capacitor/app": "7.0.1",
     "@capacitor/core": "7.3.0",
+    "@capacitor/filesystem": "^7.1.1",
     "@capacitor/haptics": "7.0.1",
+    "@capacitor/ios": "7.3.0",
     "@capacitor/keyboard": "7.0.1",
     "@capacitor/status-bar": "7.0.1",
+    "@capawesome/capacitor-android-edge-to-edge-support": "^7.2.2",
     "@ionic/vue": "^8.0.0",
     "@ionic/vue-router": "^8.0.0",
+    "dotenv": "^16.5.0",
     "ionicons": "^7.0.0",
+    "pinia": "^3.0.3",
     "vue": "^3.3.0",
     "vue-router": "^4.2.0"
   },
   "devDependencies": {
+    "@capacitor/assets": "^3.0.5",
     "@capacitor/cli": "7.3.0",
     "@vitejs/plugin-legacy": "^5.0.0",
     "@vitejs/plugin-vue": "^4.0.0",
